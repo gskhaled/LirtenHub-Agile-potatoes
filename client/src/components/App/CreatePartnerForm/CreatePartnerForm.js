@@ -63,6 +63,12 @@ class CreatePartnerForm extends Component {
         if (this.state.toggle == 1) {
             func =
                 <div className="card parprofileCard">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <div className="card-body">
                         <form onSubmit={this.onSubmit}>
                             Username:<br />

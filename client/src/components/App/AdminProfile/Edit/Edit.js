@@ -157,6 +157,12 @@ class AdminProfile extends Component {
 
 
             button = <div className="card profileCard">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <div className="card-body">
                     <label>
                         <p>Old Password: </p>
@@ -183,6 +189,12 @@ class AdminProfile extends Component {
             if (this.state.cond === "button2") {
 
                 button = <div className="card profileCard">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <div className="card-body">
                         <label>
                             <p>New First Name: </p>
