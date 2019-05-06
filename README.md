@@ -1,3 +1,3 @@
 # Agile-potatoes
-## hello
-### hello again
+## Software Engineering course project
+### We implemented a website that helps freelancers thrive.
