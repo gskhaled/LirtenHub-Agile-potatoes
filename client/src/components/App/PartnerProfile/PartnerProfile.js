@@ -68,7 +68,14 @@ class PartnerProfile extends Component {
               </div>
               <div className="profPanel" >
                 <h1> Career info </h1>
-                <div className="attrContainer"><p>Availability: <span>{this.state.userProfile.availability}</span></p></div>
+                {/* <div className="attrContainer"><p>Availability: <span>{this.state.userProfile.availability}</span></p></div> */}
+                {
+                  (this.state.userProfile.boardMembers)
+                  &&
+                  <div className="attrContainer"><p>Board members: {this.state.userProfile.boardMembers.map((bm) => {
+                    return <span>{bm.name + ', '}</span>
+                  })}</p></div>
+                }
                 {
                   (this.state.userProfile.events)
                   &&
