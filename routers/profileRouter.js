@@ -195,20 +195,13 @@ router.put('/:id', verifyToken, function (req, res) {
                 if (pwd && oldPassword === partner.password) {
                     partner.password = pwd;
                 }
-                else{
-
-                    console.log(partner.password)
-                    res.send("You have entered the wrong password.");
-                }
-               
                 partner.save();
                 res.send("Updated partner profile successfully");
-               
             });
         }
     }
     else
-        res.send("Error. You are not a partner");
+        res.status(400).send("Error. You are not a partner");
 });
 
 //user stories 1 & 2: creating member or partner profiles

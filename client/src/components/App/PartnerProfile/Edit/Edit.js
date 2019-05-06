@@ -195,6 +195,12 @@ class Edit extends Component {
         let func;
         if (this.state.cond == "button1") {
             func = <div className="card parprofileCard">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <div className="card-body">
                     <form onSubmit={this.handleSubmit}>
                         <label>
@@ -218,6 +224,12 @@ class Edit extends Component {
         if (this.state.cond == "button3") {
             func =
                 <div className="card parprofileCard">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <div className="card-body">
                         <form onSubmit={this.handleSubmit}>
                             <label>
