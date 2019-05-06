@@ -120,7 +120,7 @@ class CreateMemberForm extends Component {
       });
   };
   handleChangeMasterclass = async () => {
-      console.log(this.state)
+    console.log(this.state)
     this.refs.masterclassInput.value = "";
     if (this.state.masterclasses[0] == "")
       this.setState({
@@ -229,6 +229,12 @@ class CreateMemberForm extends Component {
     if (this.state.cond == "button1") {
       func = (
         <div className="card push-down memprofileCard">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="card-body">
             <form onSubmit={this.onSubmit}>
               First Name:
@@ -315,13 +321,19 @@ class CreateMemberForm extends Component {
     if (this.state.cond == "button2") {
       func = (
         <div className="card push-down memprofileCard">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="card-body">
             <form onSubmit={this.onSubmit}>
               <label>
                 Skills:
                 <br />
                 {this.state.skills.map(skill => {
-                  
+
                   return <div>{<p>{skill}</p>}</div>;
                 })}
                 <input
@@ -353,6 +365,12 @@ class CreateMemberForm extends Component {
     if (this.state.cond == "button3") {
       func = (
         <div className="card push-down memprofileCard">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="card-body">
             <form onSubmit={this.onSubmit}>
               <label>
@@ -392,6 +410,12 @@ class CreateMemberForm extends Component {
     if (this.state.cond == "button4") {
       func = (
         <div className="card push-down memprofileCard">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="card-body">
             <form onSubmit={this.onSubmit}>
               <label>
@@ -432,6 +456,12 @@ class CreateMemberForm extends Component {
     if (this.state.cond == "button5") {
       func = (
         <div className="card push-down memprofileCard">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="card-body">
             <form onSubmit={this.onSubmit}>
               <label>
